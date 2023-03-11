@@ -18,6 +18,7 @@ body {
   color: $white-accent;
 }
 
+// background-image wrapper -- placed after <body>
 .bg-wrapper {
   width: 100%;
   display: block;
@@ -25,8 +26,16 @@ body {
   align-items: center;
   position: fixed;
 
-
-
+  // cover the bg-image
+  .ratio_cover {
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+    height: 100vh;
+    background-color: red;
+    opacity: 0
+  }
+  // -------------- bg-image ----------------- //
   .ratio {
     position: relative;
     display: block;
@@ -47,6 +56,7 @@ body {
       height: 100%;
     }
   }
+  // -------------- bg-image ----------------- //
 }
 
 .nav-container {

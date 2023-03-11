@@ -9,7 +9,14 @@ export default defineConfig({
   },
 
   assets: {
-		include: ["**/*.mp3", "**/*.jpg", "**/*.JPG", "**/*.png", "**/*.PNG", "**/*svg"],
+    include: [
+      "**/*.mp3",
+      "**/*.jpg",
+      "**/*.JPG",
+      "**/*.png",
+      "**/*.PNG",
+      "**/*svg",
+    ],
   },
 
   plugins: [
